@@ -55,5 +55,3 @@ portfolio-api/
   - app.py
   - requirements.tx
   - README.md
-
-C
