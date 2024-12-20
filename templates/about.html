@@ -1,8 +1,57 @@
 {% extends "base.html" %}
 
 {% block content %}
-<section id="about">
-    <h2>About Me</h2>
-    <p>Cláudio RODRIGUES</p>
+<section id="about" style="margin-top: 40px;">
+    <p>A professional with 9 years of experience across various industries, including automotive, telecommunications, and e-commerce.</p> 
+    <p>Currently working at La Redoute, focusing on monitoring and improving system performance and reliability.</p>
+    <h3>Key Responsibilities:</h3>
+    <ul>
+        <li>Implementing and maintaining monitoring solutions;</li>
+        <li>Developing custom dashboards;</li>
+        <li>Working with Agile methodologies, including Scrum and Kanban.</li>
+    </ul>
+    
+    <!-- Image related to automobiles -->
+    <img src="/static/images/automotive.png" alt="Automotive" style="width: 200px; height: auto; margin-top: 20px;">
+</section>
+    
+<section id="skills" style="margin-top: 40px;">
+    <h2>Skills</h2>
+
+    <h3>Tools and Technologies:</h3>
+    <ul style="text-align: left;">
+        <li><strong>Monitoring and Observability:</strong> Centreon, Dynatrace, Prometheus, Grafana, ELK Stack</li>
+        <li><strong>Cloud:</strong> Azure, GCP</li>
+        <li><strong>DevOps and Collaboration:</strong> GitHub, GitLab, Jenkins, Jira, Confluence, Cloudflare</li>
+        <li><strong>Development and Testing:</strong> Postman, Visual Studio Code, DBeaver, Mobaxterm</li>
+        <li><strong>Operating Systems:</strong> Windows and Linux</li>
+    </ul>
+    
+    <!-- Images related to tools: GitHub, Grafana, Centreon -->
+    <img src="/static/images/github_logo.png" alt="GitHub" style="width: 100px; height: auto; margin-top: 10px;">
+    <img src="/static/images/grafana_logo.png" alt="Grafana" style="width: 100px; height: auto; margin-top: 10px;">
+    <img src="/static/images/centreon_logo.png" alt="Centreon" style="width: 100px; height: auto; margin-top: 10px;">
+    <img src="/static/images/linux_logo.png" alt="Linux" style="width: 100px; height: auto; margin-top: 10px;">
+</section>
+
+<section id="hobbies" style="margin-top: 40px;">
+    <h2>Hobbies</h2>
+    <p>In addition to exploring full stack development through personal projects, I enjoy:</p>
+    <ul>
+        <li>Reading books</li>
+        <li>Going to the gym</li>
+        <li>Listening to music</li>
+        <li>Practicing photography</li>
+    </ul>
+    
+    <!-- Images related to hobbies: Gym and Photography -->
+    <img src="/static/images/gym.png" alt="Gym" style="width: 200px; height: auto; margin-top: 20px;">
+    <img src="/static/images/photo.png" alt="Photography" style="width: 200px; height: auto; margin-top: 20px;">
+</section>
+
+<section id="github" style="margin-top: 40px;">
+    <h2>GitHub</h2>
+    <p>Check out my GitHub for more details on my projects: <a href="https://github.com/claudiooandre" target="_blank">github.com/claudiooandre</a></p>
 </section>
 {% endblock %}
+
