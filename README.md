@@ -19,7 +19,7 @@ Technology Stack
 - Backend: Flask (Python)
 - Frontend: HTML and CSS
 - Email Integration: Flask with SMTP for sending contact form messages.
-- Hosting: (Specify if hosted on platforms like Heroku, AWS, or GitHub Pages)
+- Hosting: (Specify if hosted on platforms like GitHub Pages)
 
 How to Run Locally
 
@@ -34,28 +34,26 @@ How to Run Locally
 Folder Structure
 
 portfolio-api/
-├── static/
-│   ├── css/
-│   │   └── styles.css
-│   ├── images/
-│       ├── automotive.png
-│       ├── github_logo.png
-│       ├── gym.png
-│       └── photography.png
-├── templates/
-│   ├── base.html
-│   ├── index.html
-│   ├── about.html
-│   ├── projects.html
-│   └── contact.html
-├── app.py
-├── requirements.txt
-└── README.md
+  - static/
+    - css/
+      - styles.css
+    - images/
+      - automotive.png
+      - centreon_logo.png
+      - github_logo.png
+      - grafana_logo.png
+      - gym.png
+      - linux_logo.png
+      - my_photo.jpeg
+      - photo.png
+  - templates/
+    - base.html
+    - index.html
+    - about.html
+    - projects.html
+    - contact.html
+  - app.py
+  - requirements.tx
+  - README.md
 
-Screenshots
-
-Home Page
-Contact Page
-Contributing
-
-Feel free to fork this project and create pull requests. All contributions are welcome!
+C
